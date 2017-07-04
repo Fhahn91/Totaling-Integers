@@ -1,21 +1,2 @@
 # Totaling-Integers
 Python class project that totals even integers
-
-##
-# Program that totals all of the even integers bewteen 4 and 90 inclusive.
-#
-
-# Defining constants
-START = 4
-END = 90
-
-# Defining function that identifies and totals all of the even integers between given two points.
-def evenInts(a, b) :
-    count = 0
-    for i in range (a, b + 1):
-        if(i % 2 == 0) :
-            count += i
-    return count
-
-# Calling function "evenInts" to indentify and total all even integers beween 4 and 90.
-print(evenInts(START, END))
